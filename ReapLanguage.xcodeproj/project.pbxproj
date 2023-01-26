@@ -14,6 +14,15 @@
 		ED2E2C732978432700D1DCBF /* ReapLanguage.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ED2E2C712978432700D1DCBF /* ReapLanguage.xcdatamodeld */; };
 		ED2E2C752978432800D1DCBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED2E2C742978432800D1DCBF /* Assets.xcassets */; };
 		ED2E2C782978432800D1DCBF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED2E2C762978432800D1DCBF /* LaunchScreen.storyboard */; };
+		ED2E2C85297869C100D1DCBF /* CollectionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2E2C84297869C100D1DCBF /* CollectionTableViewController.swift */; };
+		ED2E2C8829786BBD00D1DCBF /* ConnectWordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2E2C8729786BBD00D1DCBF /* ConnectWordViewController.swift */; };
+		ED2E2C8B2978710B00D1DCBF /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2E2C8A2978710B00D1DCBF /* Word.swift */; };
+		ED2E2C8D2978720200D1DCBF /* LearnWordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2E2C8C2978720200D1DCBF /* LearnWordViewController.swift */; };
+		ED2E2C8F2978722800D1DCBF /* ChooseWordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2E2C8E2978722800D1DCBF /* ChooseWordViewController.swift */; };
+		ED2E2C912978725300D1DCBF /* WriteWordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2E2C902978725300D1DCBF /* WriteWordViewController.swift */; };
+		ED2E2C94297873DD00D1DCBF /* ChooseWordEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2E2C93297873DD00D1DCBF /* ChooseWordEvent.swift */; };
+		ED40F4182981D3A200074007 /* Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED40F4172981D3A200074007 /* Collection.swift */; };
+		ED40F41B2981D79600074007 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED40F41A2981D79600074007 /* CoreDataStack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +35,15 @@
 		ED2E2C742978432800D1DCBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED2E2C772978432800D1DCBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED2E2C792978432800D1DCBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED2E2C84297869C100D1DCBF /* CollectionTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionTableViewController.swift; sourceTree = "<group>"; };
+		ED2E2C8729786BBD00D1DCBF /* ConnectWordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectWordViewController.swift; sourceTree = "<group>"; };
+		ED2E2C8A2978710B00D1DCBF /* Word.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Word.swift; sourceTree = "<group>"; };
+		ED2E2C8C2978720200D1DCBF /* LearnWordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnWordViewController.swift; sourceTree = "<group>"; };
+		ED2E2C8E2978722800D1DCBF /* ChooseWordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseWordViewController.swift; sourceTree = "<group>"; };
+		ED2E2C902978725300D1DCBF /* WriteWordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteWordViewController.swift; sourceTree = "<group>"; };
+		ED2E2C93297873DD00D1DCBF /* ChooseWordEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseWordEvent.swift; sourceTree = "<group>"; };
+		ED40F4172981D3A200074007 /* Collection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Collection.swift; sourceTree = "<group>"; };
+		ED40F41A2981D79600074007 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +76,9 @@
 		ED2E2C672978432700D1DCBF /* ReapLanguage */ = {
 			isa = PBXGroup;
 			children = (
+				ED40F4192981D78300074007 /* CoreData */,
+				ED2E2C89297870D500D1DCBF /* Class */,
+				ED2E2C7F29784C1E00D1DCBF /* ViewController */,
 				ED2E2C682978432700D1DCBF /* AppDelegate.swift */,
 				ED2E2C6A2978432700D1DCBF /* SceneDelegate.swift */,
 				ED2E2C6C2978432700D1DCBF /* ViewController.swift */,
@@ -66,8 +87,54 @@
 				ED2E2C762978432800D1DCBF /* LaunchScreen.storyboard */,
 				ED2E2C792978432800D1DCBF /* Info.plist */,
 				ED2E2C712978432700D1DCBF /* ReapLanguage.xcdatamodeld */,
+				ED40F4172981D3A200074007 /* Collection.swift */,
 			);
 			path = ReapLanguage;
+			sourceTree = "<group>";
+		};
+		ED2E2C7F29784C1E00D1DCBF /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				ED2E2C8629786B8300D1DCBF /* LearnEventController */,
+				ED2E2C84297869C100D1DCBF /* CollectionTableViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		ED2E2C8629786B8300D1DCBF /* LearnEventController */ = {
+			isa = PBXGroup;
+			children = (
+				ED2E2C8729786BBD00D1DCBF /* ConnectWordViewController.swift */,
+				ED2E2C8C2978720200D1DCBF /* LearnWordViewController.swift */,
+				ED2E2C8E2978722800D1DCBF /* ChooseWordViewController.swift */,
+				ED2E2C902978725300D1DCBF /* WriteWordViewController.swift */,
+			);
+			path = LearnEventController;
+			sourceTree = "<group>";
+		};
+		ED2E2C89297870D500D1DCBF /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				ED2E2C92297873BD00D1DCBF /* LearnEvent */,
+				ED2E2C8A2978710B00D1DCBF /* Word.swift */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		ED2E2C92297873BD00D1DCBF /* LearnEvent */ = {
+			isa = PBXGroup;
+			children = (
+				ED2E2C93297873DD00D1DCBF /* ChooseWordEvent.swift */,
+			);
+			path = LearnEvent;
+			sourceTree = "<group>";
+		};
+		ED40F4192981D78300074007 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				ED40F41A2981D79600074007 /* CoreDataStack.swift */,
+			);
+			path = CoreData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,9 +209,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED2E2C6D2978432700D1DCBF /* ViewController.swift in Sources */,
+				ED2E2C8B2978710B00D1DCBF /* Word.swift in Sources */,
+				ED2E2C8F2978722800D1DCBF /* ChooseWordViewController.swift in Sources */,
+				ED40F4182981D3A200074007 /* Collection.swift in Sources */,
+				ED2E2C85297869C100D1DCBF /* CollectionTableViewController.swift in Sources */,
 				ED2E2C732978432700D1DCBF /* ReapLanguage.xcdatamodeld in Sources */,
+				ED40F41B2981D79600074007 /* CoreDataStack.swift in Sources */,
 				ED2E2C692978432700D1DCBF /* AppDelegate.swift in Sources */,
+				ED2E2C912978725300D1DCBF /* WriteWordViewController.swift in Sources */,
+				ED2E2C94297873DD00D1DCBF /* ChooseWordEvent.swift in Sources */,
+				ED2E2C8D2978720200D1DCBF /* LearnWordViewController.swift in Sources */,
 				ED2E2C6B2978432700D1DCBF /* SceneDelegate.swift in Sources */,
+				ED2E2C8829786BBD00D1DCBF /* ConnectWordViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
