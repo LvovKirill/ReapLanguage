@@ -4,7 +4,7 @@ import Foundation
 
 class IdGenerator{
     
-    static var currentId = 0
+    static var currentId = 2000
     
     static func getNewId() -> NSNumber {
         
@@ -23,6 +23,16 @@ class IdGenerator{
             }
         }
         if(wrongId){ currentId = 2000 }
+        
+        let collectionList = auxiliaryTools.getCollectionListByCustomType(customType: true)
+        for collection in collectionList{
+            if(collection.id as! Int == currentId){
+                wrongId = true
+                break
+            }
+        }
+        if(wrongId){ currentId = Int(self.getNewId()) }
+        
         UserDefaults.standard.setValue(currentId, forKey: "lastId")
         return currentId as NSNumber
         

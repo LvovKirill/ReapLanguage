@@ -53,6 +53,8 @@ class CreateCollectionViewController: UIViewController {
     @IBAction func pickEmojiAction(_ sender: UIButton) {
         let vc = self.storyboard?.instantiateViewController(withIdentifier: "GoToEmojiPikerCollectionViewController") as? EmojiPikerCollectionViewController
         vc?.CCVC = self
+        
+     
         self.navigationController?.pushViewController(vc!, animated: true)
     }
     

@@ -6,4 +6,25 @@
         <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
         <attribute name="nameCollection" optional="YES" attributeType="String"/>
     </entity>
+    <entity name="DayPoint" representedClassName="DayPoint" syncable="YES">
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="numberLearnedWords" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="numberRepeatedWords" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="progressCount" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="ProgressPoint" representedClassName="ProgressPoint" syncable="YES">
+        <attribute name="number" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="value" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="Word" representedClassName="Word" syncable="YES">
+        <attribute name="baseWord" optional="YES" attributeType="String"/>
+        <attribute name="breakIndicator" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="collectionID" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="identifierInTeachEvent" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="numberCorrectRepetitions" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="parentCollection" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="repeatDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="targetWord" optional="YES" attributeType="String"/>
+    </entity>
 </model>

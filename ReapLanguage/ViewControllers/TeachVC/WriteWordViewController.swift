@@ -12,6 +12,9 @@ class WriteWordViewController: UIViewController {
     @IBOutlet weak var knownWord: UILabel!
     @IBOutlet weak var textField: UITextField!
     
+    var textFieldUpValue: Bool = false
+    var textFieldDownValue: Bool = false
+    
     var TWE:WriteWordViewController!
     var teachEventViewController:TeachEventViewController!
     var words:[Word]=[]
@@ -46,9 +49,13 @@ class WriteWordViewController: UIViewController {
         WWE.help()
         delayWithSeconds(1){
             self.updateWord()
+            self.textField.textColor = UIColor.black
         }
         
-        textFieldDidEnd()
+        if(self.view.frame.origin.y == -220){
+            textFieldDown()
+        }
+        textField.resignFirstResponder()
         
     }
     
@@ -84,7 +91,13 @@ class WriteWordViewController: UIViewController {
             
         }
         
-        textFieldDidEnd()
+        if(self.view.frame.origin.y == -220){
+            textFieldDown()
+        }
+        textField.resignFirstResponder()
+        delayWithSeconds(0.3){
+            self.textField.textColor = UIColor.black
+        }
         
     }
     
@@ -95,23 +108,23 @@ class WriteWordViewController: UIViewController {
     }
     
     @objc func textFieldDidBeginEditing(_ textField: UITextField) {
+        if(self.view.frame.origin.y == 0){
+            textFieldUp()
+        }
+    }
+    
+    func textFieldUp(){
         UIView.animate(withDuration: 0.3, animations: {
             self.view.frame = CGRect(x:self.view.frame.origin.x, y:self.view.frame.origin.y - 220, width:self.view.frame.size.width, height:self.view.frame.size.height);
 
         })
     }
     
-    func textFieldDidEnd() {
+    func textFieldDown(){
         UIView.animate(withDuration: 0.3, animations: {
             self.view.frame = CGRect(x:self.view.frame.origin.x, y:self.view.frame.origin.y + 220, width:self.view.frame.size.width, height:self.view.frame.size.height);
 
         })
     }
-    
-    
-//    @objc func myTargetFunction(textField: UITextField) {
-//        print("myTargetFunction")
-//    }
-    
     
 }

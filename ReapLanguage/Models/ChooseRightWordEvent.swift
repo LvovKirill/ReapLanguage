@@ -46,7 +46,7 @@ class ChooseRightWordEvent{
                 wordDataCount = chooseWordData.count-2
             }
         
-            if (wordDataCount > 0){
+            if (wordDataCount >= 0){
         for index in 0...wordDataCount{
             selectableWords.append(chooseWordData[index])
         }

@@ -49,9 +49,10 @@ class ChooseRightWordViewController: UIViewController {
         if(CRWE.selectableWords.count<5){
             let n = CRWE.selectableWords.count
             
-            for i in n...4{
-                buttonCollection[i].alpha = 0
-                buttonCollection[i].isEnabled = false
+                for i in n...4{
+                    buttonCollection[i].alpha = 0
+                    buttonCollection[i].isEnabled = false
+                
             }
         }
         

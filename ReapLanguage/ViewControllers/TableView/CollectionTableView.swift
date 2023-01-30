@@ -110,7 +110,7 @@ class CollectionTableView: UITableViewController {
         }
             return nil
     }
-    
+
     
 
     
@@ -175,7 +175,7 @@ class CollectionTableView: UITableViewController {
         let teach = UIAlertAction(title: "Учить", style: .default){_ in
             
             if(auxiliaryTools.getWordByCollectionId(collectionID: collectionList[button.tag].id, type: "forTeachEvent").count == 0){
-                let alert = auxiliaryTools.getInfoAlert(title: "Внимание", message: "В этой коллекции отсутствуют слова, доступные для изучения")
+                let alert = auxiliaryTools.getInfoAlert(title: "Внимание", message: "В этой коллекции отсутствуют слова, доступные для изучения.")
                 self.present(alert, animated: true, completion: nil)
             }else{
             let vc = self.storyboard?.instantiateViewController(withIdentifier: "GoToTeachEventViewController") as? TeachEventViewController
@@ -185,19 +185,28 @@ class CollectionTableView: UITableViewController {
             }
             
         }
-        let repetition = UIAlertAction(title: "Повторить", style: .default){_ in
-            self.showRepeatAlertSheetAction(self, button: button)
-        }
-        let repetitionLearned = UIAlertAction(title: "Повторить выученные слова", style: .default){_ in }
-        let review = UIAlertAction(title: "Обзор слов", style: .default){_ in }
-        let playback = UIAlertAction(title: "Автопроигрывание", style: .default){_ in }
+        
+        
+            
+            let repetition = UIAlertAction(title: "Повторить", style: .default){_ in
+                if(auxiliaryTools.getWordByCollectionId(collectionID: collectionList[button.tag].id, type: "forTeachEvent").count == 0){
+                    let alert = auxiliaryTools.getInfoAlert(title: "Внимание", message: "В этой коллекции отсутствуют слова, доступные для повторения.")
+                    self.present(alert, animated: true, completion: nil)
+                }else{
+                    self.showRepeatAlertSheetAction(self, button: button)
+                }
+            }
+        
+//        let repetitionLearned = UIAlertAction(title: "Повторить выученные слова", style: .default){_ in }
+//        let review = UIAlertAction(title: "Обзор слов", style: .default){_ in }
+//        let playback = UIAlertAction(title: "Автопроигрывание", style: .default){_ in }
         let cancelAction = UIAlertAction(title: "Отмена", style: .cancel)
         
         alert.addAction(teach)
         alert.addAction(repetition)
-        alert.addAction(repetitionLearned)
-        alert.addAction(review)
-        alert.addAction(playback)
+//        alert.addAction(repetitionLearned)
+//        alert.addAction(review)
+//        alert.addAction(playback)
         alert.addAction(cancelAction)
         
         if let popover = alert.popoverPresentationController{
@@ -263,6 +272,8 @@ class CollectionTableView: UITableViewController {
     override func viewDidAppear(_ animated: Bool) {
         auxiliaryTools.reloadBreakIndicator()
     }
+    
+    
     
     
 }

@@ -49,7 +49,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		ED2E2C652978432700D1DCBF /* ReapLanguage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReapLanguage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED2E2C652978432700D1DCBF /* ReapEnglish.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReapEnglish.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED2E2C682978432700D1DCBF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ED2E2C6A2978432700D1DCBF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		ED2E2C6F2978432700D1DCBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -114,7 +114,7 @@
 		ED2E2C662978432700D1DCBF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				ED2E2C652978432700D1DCBF /* ReapLanguage.app */,
+				ED2E2C652978432700D1DCBF /* ReapEnglish.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -225,9 +225,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		ED2E2C642978432700D1DCBF /* ReapLanguage */ = {
+		ED2E2C642978432700D1DCBF /* ReapEnglish */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ED2E2C7C2978432800D1DCBF /* Build configuration list for PBXNativeTarget "ReapLanguage" */;
+			buildConfigurationList = ED2E2C7C2978432800D1DCBF /* Build configuration list for PBXNativeTarget "ReapEnglish" */;
 			buildPhases = (
 				ED2E2C612978432700D1DCBF /* Sources */,
 				ED2E2C622978432700D1DCBF /* Frameworks */,
@@ -237,9 +237,9 @@
 			);
 			dependencies = (
 			);
-			name = ReapLanguage;
+			name = ReapEnglish;
 			productName = ReapLanguage;
-			productReference = ED2E2C652978432700D1DCBF /* ReapLanguage.app */;
+			productReference = ED2E2C652978432700D1DCBF /* ReapEnglish.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -257,7 +257,7 @@
 					};
 				};
 			};
-			buildConfigurationList = ED2E2C602978432700D1DCBF /* Build configuration list for PBXProject "ReapLanguage" */;
+			buildConfigurationList = ED2E2C602978432700D1DCBF /* Build configuration list for PBXProject "ReapEnglish" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -270,7 +270,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				ED2E2C642978432700D1DCBF /* ReapLanguage */,
+				ED2E2C642978432700D1DCBF /* ReapEnglish */,
 			);
 		};
 /* End PBXProject section */
@@ -527,7 +527,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		ED2E2C602978432700D1DCBF /* Build configuration list for PBXProject "ReapLanguage" */ = {
+		ED2E2C602978432700D1DCBF /* Build configuration list for PBXProject "ReapEnglish" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ED2E2C7A2978432800D1DCBF /* Debug */,
@@ -536,7 +536,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ED2E2C7C2978432800D1DCBF /* Build configuration list for PBXNativeTarget "ReapLanguage" */ = {
+		ED2E2C7C2978432800D1DCBF /* Build configuration list for PBXNativeTarget "ReapEnglish" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ED2E2C7D2978432800D1DCBF /* Debug */,
