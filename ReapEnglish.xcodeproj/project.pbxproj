@@ -1,0 +1,564 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED2E2C692978432700D1DCBF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2E2C682978432700D1DCBF /* AppDelegate.swift */; };
+		ED2E2C6B2978432700D1DCBF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2E2C6A2978432700D1DCBF /* SceneDelegate.swift */; };
+		ED2E2C702978432700D1DCBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED2E2C6E2978432700D1DCBF /* Main.storyboard */; };
+		ED2E2C732978432700D1DCBF /* ReapLanguage.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ED2E2C712978432700D1DCBF /* ReapLanguage.xcdatamodeld */; };
+		ED2E2C752978432800D1DCBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED2E2C742978432800D1DCBF /* Assets.xcassets */; };
+		ED2E2C782978432800D1DCBF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED2E2C762978432800D1DCBF /* LaunchScreen.storyboard */; };
+		ED40F41B2981D79600074007 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED40F41A2981D79600074007 /* CoreDataStack.swift */; };
+		ED40F4A82982D05500074007 /* TeachWordEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED40F48B2982D05400074007 /* TeachWordEvent.swift */; };
+		ED40F4A92982D05500074007 /* WriteWordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED40F4A52982D05500074007 /* WriteWordViewController.swift */; };
+		ED40F4AA2982D05500074007 /* CollectionTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED40F49C2982D05500074007 /* CollectionTableView.swift */; };
+		ED40F4AB2982D05500074007 /* PairConnectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED40F49B2982D05500074007 /* PairConnectionViewController.swift */; };
+		ED40F4AC2982D05500074007 /* TeachWordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED40F4992982D05500074007 /* TeachWordViewController.swift */; };
+		ED40F4AD2982D05500074007 /* EmojiPikerCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED40F49F2982D05500074007 /* EmojiPikerCollectionViewController.swift */; };
+		ED40F4AE2982D05500074007 /* ChooseRightWordEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED40F48F2982D05400074007 /* ChooseRightWordEvent.swift */; };
+		ED40F4B02982D05500074007 /* TeachEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED40F4A62982D05500074007 /* TeachEventViewController.swift */; };
+		ED40F4B12982D05500074007 /* auxiliaryTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED40F4A32982D05500074007 /* auxiliaryTools.swift */; };
+		ED40F4B32982D05500074007 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED40F4A22982D05500074007 /* SettingsTableViewController.swift */; };
+		ED40F4B42982D05500074007 /* SelectNumberRepetitionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED40F4942982D05400074007 /* SelectNumberRepetitionsViewController.swift */; };
+		ED40F4B52982D05500074007 /* CreateWordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED40F4962982D05400074007 /* CreateWordViewController.swift */; };
+		ED40F4B62982D05500074007 /* StatisticsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED40F4A02982D05500074007 /* StatisticsViewController.swift */; };
+		ED40F4B72982D05500074007 /* CollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED40F4902982D05400074007 /* CollectionCell.swift */; };
+		ED40F4B82982D05500074007 /* WordTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED40F4A72982D05500074007 /* WordTableView.swift */; };
+		ED40F4B92982D05500074007 /* WriteWordEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED40F4892982D05400074007 /* WriteWordEvent.swift */; };
+		ED40F4BA2982D05500074007 /* ChooseRightWordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED40F48A2982D05400074007 /* ChooseRightWordViewController.swift */; };
+		ED40F4BB2982D05500074007 /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED40F4A12982D05500074007 /* Day.swift */; };
+		ED40F4BC2982D05500074007 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED40F48D2982D05400074007 /* Date.swift */; };
+		ED40F4BD2982D05500074007 /* BuiltInCollections.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED40F4972982D05400074007 /* BuiltInCollections.swift */; };
+		ED40F4BE2982D05500074007 /* Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED40F49D2982D05500074007 /* Collection.swift */; };
+		ED40F4BF2982D05500074007 /* PairConnectionEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED40F4922982D05400074007 /* PairConnectionEvent.swift */; };
+		ED40F4C02982D05500074007 /* Statistics.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED40F4932982D05400074007 /* Statistics.swift */; };
+		ED40F4C12982D05500074007 /* ProgressPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED40F4A42982D05500074007 /* ProgressPoint.swift */; };
+		ED40F4C22982D05500074007 /* EmojiPikerViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED40F49E2982D05500074007 /* EmojiPikerViewCell.swift */; };
+		ED40F4C32982D05500074007 /* CreateCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED40F49A2982D05500074007 /* CreateCollectionViewController.swift */; };
+		ED40F4C42982D05500074007 /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED40F48C2982D05400074007 /* Word.swift */; };
+		ED40F4C52982D05500074007 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED40F4912982D05400074007 /* Settings.swift */; };
+		ED40F4C62982D05500074007 /* WordCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED40F4952982D05400074007 /* WordCell.swift */; };
+		ED40F4C72982D05500074007 /* IdGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED40F4982982D05500074007 /* IdGenerator.swift */; };
+		ED40F4C82982D05500074007 /* TeachEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED40F4882982D05400074007 /* TeachEvent.swift */; };
+		ED40F4D229830F5E00074007 /* Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED40F4D129830F5E00074007 /* Collection.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ED2E2C652978432700D1DCBF /* ReapLanguage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReapLanguage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED2E2C682978432700D1DCBF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ED2E2C6A2978432700D1DCBF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		ED2E2C6F2978432700D1DCBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED2E2C722978432700D1DCBF /* ReapLanguage.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ReapLanguage.xcdatamodel; sourceTree = "<group>"; };
+		ED2E2C742978432800D1DCBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED2E2C772978432800D1DCBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED2E2C792978432800D1DCBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED40F41A2981D79600074007 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		ED40F4882982D05400074007 /* TeachEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeachEvent.swift; sourceTree = "<group>"; };
+		ED40F4892982D05400074007 /* WriteWordEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteWordEvent.swift; sourceTree = "<group>"; };
+		ED40F48A2982D05400074007 /* ChooseRightWordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseRightWordViewController.swift; sourceTree = "<group>"; };
+		ED40F48B2982D05400074007 /* TeachWordEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeachWordEvent.swift; sourceTree = "<group>"; };
+		ED40F48C2982D05400074007 /* Word.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Word.swift; sourceTree = "<group>"; };
+		ED40F48D2982D05400074007 /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		ED40F48F2982D05400074007 /* ChooseRightWordEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseRightWordEvent.swift; sourceTree = "<group>"; };
+		ED40F4902982D05400074007 /* CollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionCell.swift; sourceTree = "<group>"; };
+		ED40F4912982D05400074007 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		ED40F4922982D05400074007 /* PairConnectionEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PairConnectionEvent.swift; sourceTree = "<group>"; };
+		ED40F4932982D05400074007 /* Statistics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Statistics.swift; sourceTree = "<group>"; };
+		ED40F4942982D05400074007 /* SelectNumberRepetitionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectNumberRepetitionsViewController.swift; sourceTree = "<group>"; };
+		ED40F4952982D05400074007 /* WordCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordCell.swift; sourceTree = "<group>"; };
+		ED40F4962982D05400074007 /* CreateWordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateWordViewController.swift; sourceTree = "<group>"; };
+		ED40F4972982D05400074007 /* BuiltInCollections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuiltInCollections.swift; sourceTree = "<group>"; };
+		ED40F4982982D05500074007 /* IdGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdGenerator.swift; sourceTree = "<group>"; };
+		ED40F4992982D05500074007 /* TeachWordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeachWordViewController.swift; sourceTree = "<group>"; };
+		ED40F49A2982D05500074007 /* CreateCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateCollectionViewController.swift; sourceTree = "<group>"; };
+		ED40F49B2982D05500074007 /* PairConnectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PairConnectionViewController.swift; sourceTree = "<group>"; };
+		ED40F49C2982D05500074007 /* CollectionTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionTableView.swift; sourceTree = "<group>"; };
+		ED40F49D2982D05500074007 /* Collection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Collection.swift; path = "../../../../Documents/Программирование/IOS/Приложения/FastEnglish/FastEnglish/Collection.swift"; sourceTree = "<group>"; };
+		ED40F49E2982D05500074007 /* EmojiPikerViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiPikerViewCell.swift; sourceTree = "<group>"; };
+		ED40F49F2982D05500074007 /* EmojiPikerCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiPikerCollectionViewController.swift; sourceTree = "<group>"; };
+		ED40F4A02982D05500074007 /* StatisticsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsViewController.swift; sourceTree = "<group>"; };
+		ED40F4A12982D05500074007 /* Day.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day.swift; sourceTree = "<group>"; };
+		ED40F4A22982D05500074007 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		ED40F4A32982D05500074007 /* auxiliaryTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = auxiliaryTools.swift; sourceTree = "<group>"; };
+		ED40F4A42982D05500074007 /* ProgressPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressPoint.swift; sourceTree = "<group>"; };
+		ED40F4A52982D05500074007 /* WriteWordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteWordViewController.swift; sourceTree = "<group>"; };
+		ED40F4A62982D05500074007 /* TeachEventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeachEventViewController.swift; sourceTree = "<group>"; };
+		ED40F4A72982D05500074007 /* WordTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordTableView.swift; sourceTree = "<group>"; };
+		ED40F4D129830F5E00074007 /* Collection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Collection.swift; path = "../../../../../Documents/Программирование/IOS/Приложения/FastEnglish/FastEnglish/Collection.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED2E2C622978432700D1DCBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED2E2C5C2978432700D1DCBF = {
+			isa = PBXGroup;
+			children = (
+				ED2E2C672978432700D1DCBF /* ReapLanguage */,
+				ED2E2C662978432700D1DCBF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED2E2C662978432700D1DCBF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED2E2C652978432700D1DCBF /* ReapLanguage.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED2E2C672978432700D1DCBF /* ReapLanguage */ = {
+			isa = PBXGroup;
+			children = (
+				ED40F4192981D78300074007 /* CoreData */,
+				ED40F4D029830F2300074007 /* Tools */,
+				ED40F4CF29830EC700074007 /* Models */,
+				ED40F4CE29830E8400074007 /* ViewControllers */,
+				ED40F49D2982D05500074007 /* Collection.swift */,
+				ED40F48D2982D05400074007 /* Date.swift */,
+				ED2E2C682978432700D1DCBF /* AppDelegate.swift */,
+				ED2E2C6A2978432700D1DCBF /* SceneDelegate.swift */,
+				ED2E2C742978432800D1DCBF /* Assets.xcassets */,
+				ED2E2C6E2978432700D1DCBF /* Main.storyboard */,
+				ED2E2C762978432800D1DCBF /* LaunchScreen.storyboard */,
+				ED2E2C792978432800D1DCBF /* Info.plist */,
+				ED2E2C712978432700D1DCBF /* ReapLanguage.xcdatamodeld */,
+			);
+			path = ReapLanguage;
+			sourceTree = "<group>";
+		};
+		ED40F4192981D78300074007 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				ED40F4D129830F5E00074007 /* Collection.swift */,
+				ED40F4A12982D05500074007 /* Day.swift */,
+				ED40F4A42982D05500074007 /* ProgressPoint.swift */,
+				ED40F48C2982D05400074007 /* Word.swift */,
+				ED40F41A2981D79600074007 /* CoreDataStack.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		ED40F4CE29830E8400074007 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				ED40F4D52983AD1B00074007 /* TeachVC */,
+				ED40F4D42983123C00074007 /* TableViewCell */,
+				ED40F4D32983121D00074007 /* TableView */,
+				ED40F49A2982D05500074007 /* CreateCollectionViewController.swift */,
+				ED40F4962982D05400074007 /* CreateWordViewController.swift */,
+				ED40F49F2982D05500074007 /* EmojiPikerCollectionViewController.swift */,
+				ED40F4942982D05400074007 /* SelectNumberRepetitionsViewController.swift */,
+				ED40F4A22982D05500074007 /* SettingsTableViewController.swift */,
+				ED40F4A02982D05500074007 /* StatisticsViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		ED40F4CF29830EC700074007 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				ED40F48F2982D05400074007 /* ChooseRightWordEvent.swift */,
+				ED40F4922982D05400074007 /* PairConnectionEvent.swift */,
+				ED40F4882982D05400074007 /* TeachEvent.swift */,
+				ED40F48B2982D05400074007 /* TeachWordEvent.swift */,
+				ED40F4892982D05400074007 /* WriteWordEvent.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		ED40F4D029830F2300074007 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				ED40F4A32982D05500074007 /* auxiliaryTools.swift */,
+				ED40F4972982D05400074007 /* BuiltInCollections.swift */,
+				ED40F4982982D05500074007 /* IdGenerator.swift */,
+				ED40F4912982D05400074007 /* Settings.swift */,
+				ED40F4932982D05400074007 /* Statistics.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		ED40F4D32983121D00074007 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				ED40F49C2982D05500074007 /* CollectionTableView.swift */,
+				ED40F4A72982D05500074007 /* WordTableView.swift */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		ED40F4D42983123C00074007 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				ED40F4902982D05400074007 /* CollectionCell.swift */,
+				ED40F49E2982D05500074007 /* EmojiPikerViewCell.swift */,
+				ED40F4952982D05400074007 /* WordCell.swift */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		ED40F4D52983AD1B00074007 /* TeachVC */ = {
+			isa = PBXGroup;
+			children = (
+				ED40F48A2982D05400074007 /* ChooseRightWordViewController.swift */,
+				ED40F49B2982D05500074007 /* PairConnectionViewController.swift */,
+				ED40F4A62982D05500074007 /* TeachEventViewController.swift */,
+				ED40F4992982D05500074007 /* TeachWordViewController.swift */,
+				ED40F4A52982D05500074007 /* WriteWordViewController.swift */,
+			);
+			path = TeachVC;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED2E2C642978432700D1DCBF /* ReapLanguage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED2E2C7C2978432800D1DCBF /* Build configuration list for PBXNativeTarget "ReapLanguage" */;
+			buildPhases = (
+				ED2E2C612978432700D1DCBF /* Sources */,
+				ED2E2C622978432700D1DCBF /* Frameworks */,
+				ED2E2C632978432700D1DCBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReapLanguage;
+			productName = ReapLanguage;
+			productReference = ED2E2C652978432700D1DCBF /* ReapLanguage.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED2E2C5D2978432700D1DCBF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					ED2E2C642978432700D1DCBF = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = ED2E2C602978432700D1DCBF /* Build configuration list for PBXProject "ReapLanguage" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED2E2C5C2978432700D1DCBF;
+			productRefGroup = ED2E2C662978432700D1DCBF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED2E2C642978432700D1DCBF /* ReapLanguage */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED2E2C632978432700D1DCBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED2E2C782978432800D1DCBF /* LaunchScreen.storyboard in Resources */,
+				ED2E2C752978432800D1DCBF /* Assets.xcassets in Resources */,
+				ED2E2C702978432700D1DCBF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED2E2C612978432700D1DCBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED40F4B52982D05500074007 /* CreateWordViewController.swift in Sources */,
+				ED40F4C72982D05500074007 /* IdGenerator.swift in Sources */,
+				ED2E2C732978432700D1DCBF /* ReapLanguage.xcdatamodeld in Sources */,
+				ED40F4BC2982D05500074007 /* Date.swift in Sources */,
+				ED40F4B32982D05500074007 /* SettingsTableViewController.swift in Sources */,
+				ED40F4D229830F5E00074007 /* Collection.swift in Sources */,
+				ED40F4C32982D05500074007 /* CreateCollectionViewController.swift in Sources */,
+				ED40F4B02982D05500074007 /* TeachEventViewController.swift in Sources */,
+				ED40F4AC2982D05500074007 /* TeachWordViewController.swift in Sources */,
+				ED40F4C82982D05500074007 /* TeachEvent.swift in Sources */,
+				ED40F4C02982D05500074007 /* Statistics.swift in Sources */,
+				ED40F4B92982D05500074007 /* WriteWordEvent.swift in Sources */,
+				ED40F4C12982D05500074007 /* ProgressPoint.swift in Sources */,
+				ED40F4C42982D05500074007 /* Word.swift in Sources */,
+				ED40F4B42982D05500074007 /* SelectNumberRepetitionsViewController.swift in Sources */,
+				ED40F41B2981D79600074007 /* CoreDataStack.swift in Sources */,
+				ED40F4C62982D05500074007 /* WordCell.swift in Sources */,
+				ED2E2C692978432700D1DCBF /* AppDelegate.swift in Sources */,
+				ED40F4BD2982D05500074007 /* BuiltInCollections.swift in Sources */,
+				ED2E2C6B2978432700D1DCBF /* SceneDelegate.swift in Sources */,
+				ED40F4B12982D05500074007 /* auxiliaryTools.swift in Sources */,
+				ED40F4AA2982D05500074007 /* CollectionTableView.swift in Sources */,
+				ED40F4B82982D05500074007 /* WordTableView.swift in Sources */,
+				ED40F4AE2982D05500074007 /* ChooseRightWordEvent.swift in Sources */,
+				ED40F4BA2982D05500074007 /* ChooseRightWordViewController.swift in Sources */,
+				ED40F4C52982D05500074007 /* Settings.swift in Sources */,
+				ED40F4A82982D05500074007 /* TeachWordEvent.swift in Sources */,
+				ED40F4AD2982D05500074007 /* EmojiPikerCollectionViewController.swift in Sources */,
+				ED40F4B72982D05500074007 /* CollectionCell.swift in Sources */,
+				ED40F4BE2982D05500074007 /* Collection.swift in Sources */,
+				ED40F4AB2982D05500074007 /* PairConnectionViewController.swift in Sources */,
+				ED40F4BF2982D05500074007 /* PairConnectionEvent.swift in Sources */,
+				ED40F4BB2982D05500074007 /* Day.swift in Sources */,
+				ED40F4A92982D05500074007 /* WriteWordViewController.swift in Sources */,
+				ED40F4C22982D05500074007 /* EmojiPikerViewCell.swift in Sources */,
+				ED40F4B62982D05500074007 /* StatisticsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ED2E2C6E2978432700D1DCBF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED2E2C6F2978432700D1DCBF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED2E2C762978432800D1DCBF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED2E2C772978432800D1DCBF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED2E2C7A2978432800D1DCBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ED2E2C7B2978432800D1DCBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED2E2C7D2978432800D1DCBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TK57YHPV38;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ReapLanguage/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.-ReapLanguage.ReapLanguage";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED2E2C7E2978432800D1DCBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TK57YHPV38;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ReapLanguage/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.-ReapLanguage.ReapLanguage";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED2E2C602978432700D1DCBF /* Build configuration list for PBXProject "ReapLanguage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED2E2C7A2978432800D1DCBF /* Debug */,
+				ED2E2C7B2978432800D1DCBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED2E2C7C2978432800D1DCBF /* Build configuration list for PBXNativeTarget "ReapLanguage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED2E2C7D2978432800D1DCBF /* Debug */,
+				ED2E2C7E2978432800D1DCBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		ED2E2C712978432700D1DCBF /* ReapLanguage.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				ED2E2C722978432700D1DCBF /* ReapLanguage.xcdatamodel */,
+			);
+			currentVersion = ED2E2C722978432700D1DCBF /* ReapLanguage.xcdatamodel */;
+			path = ReapLanguage.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = ED2E2C5D2978432700D1DCBF /* Project object */;
+}
